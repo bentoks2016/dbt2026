@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: raw_sales
+    database: RAW 
+    schema: SALES 
+    tables:
+      - name: transactions
+      
