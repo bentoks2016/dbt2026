@@ -2,3 +2,8 @@
 target/
 dbt_packages/
 logs/
+# Ignore Snowflake keys
+rsa_key.p8
+rsa_key.pub
+*.p8
+*.pub
